@@ -19,6 +19,6 @@ else:
     rate = 0.15
     callCost = rate * duration
 
-callCost = '%2.f'.format(round(callCost, 2))
+callCost = '%.2f' % round(callCost, 2)
 print(f'This call will cost ${callCost}')
 
