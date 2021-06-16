@@ -1,8 +1,8 @@
 numberIn = int(input("Please enter a positve integer: "))
-num = 0
+count = 0
+num = 2
 
-for i in range(0, numberIn-2):
-    num = num + 2
+while count != numberIn:
     print(num)
-    if num >= numberIn-2:
-        break
+    num += 2
+    count += 1
