@@ -1,4 +1,8 @@
+#Fix
+
 numberIn = int(input("please enter a positve integer greater than 1: "))
+if numberIn <= 0:
+    numberIn = int(input("please enter a positve integer greater than 1: "))
 count = 0
 num = 2
 
