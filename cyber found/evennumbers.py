@@ -1,4 +1,4 @@
-numberIn = int(input("Please enter a positve integer greater than 1: "))
+numberIn = int(input("please enter a positve integer greater than 1: "))
 count = 0
 num = 2
 
