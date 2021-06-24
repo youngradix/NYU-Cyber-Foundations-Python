@@ -13,4 +13,4 @@ total = quarters + dimes + nickels + pennies
 total = str(total)
 dollars = total[0]
 cents = total[2:4]
-print('The total is', dollars, 'dollars and', cents, 'cents.')
+print('the total is', dollars, 'dollars and', cents, 'cents')
