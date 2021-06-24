@@ -1,4 +1,4 @@
 
 stdIn = input("Enter an odd length string: ")
-middleChar = (len(string)-1)/2
+middleChar = (len(stdIn)-1)/2
 print("Middle char: ", middleChar)
