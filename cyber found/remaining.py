@@ -1,6 +1,7 @@
 def remainingwords(phrase):
     splitter=phrase.split()
-    remains = " ".join for x in splitter[1:]
-    return remains
+    remains = splitter[1:]
+    rest = " ".join(remains)
+    return rest
 
-print(remainingwords("the quick brown fox"))
+#print(remainingwords("the quick brown fox"))
