@@ -1,7 +1,8 @@
 def max_val(lst):
     highestNum = 0
-    for x in lst:
-        if x > highestNum:
-            highestNum = x
+    for num in lst:
+        if num > highestNum:
+            highestNum = num
     
 
+#print(max_val([-19, -3, 20, -1, 5, -25]))
