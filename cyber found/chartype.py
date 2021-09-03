@@ -6,4 +6,4 @@ elif stdIn.isdigit():
 elif stdIn.isupper():
     print(stdIn + " is an upper case letter.")
 elif stdIn.isalnum() == False:
-    print(stdIn + " is a non-alphanumeric charcter.")
+    print(stdIn + " is a non-alphanumeric character.")
